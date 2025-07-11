@@ -11,7 +11,7 @@
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url('/assets/Hero-bg.png');
     text-align: center;
 }
 .nav-contents{
