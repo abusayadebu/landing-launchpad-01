@@ -142,3 +142,16 @@
     border-radius: 50%;
 }
 /* users section style ends here */
+.get-in-section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get-in-section h3{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+/* get in touch section style ends here */
