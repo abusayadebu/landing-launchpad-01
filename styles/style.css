@@ -71,3 +71,30 @@
     border-radius: 40px;
 }
 /* webflow section style ends here */
+
+.productive-section{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #3c37e51a;
+    text-align: center;
+    padding: 60px 40px 60px 40px;
+    border-radius: 20px;
+}
+.productive-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.productive-cards h4{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(78, 71, 255);
+}
+
+.productive-cards p{
+    color: #00000080;
+    margin-top: -60px;
+}
+.productive-section h2{
+    font-size: 38px;
+    font-weight: 700;
+}
