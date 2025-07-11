@@ -38,7 +38,13 @@
     background-color: #4E47FF;
     color: white;
     border: none;
+    cursor: pointer;
 }
+
+.btn-one:hover{
+    background-color: darkgoldenrod;
+}
+
 .hero-content{
     margin-top: 200px;
 }
@@ -72,6 +78,8 @@
 }
 /* webflow section style ends here */
 
+
+/* productive section style starts here */
 .productive-section{
     width: 80%;
     margin: 0 auto;
@@ -99,6 +107,7 @@
     font-weight: 700;
 }
 /* productive-users section style ends here */
+
 
 /* users section style starts here */
 .users-section{
@@ -143,6 +152,34 @@
 }
 /* users section style ends here */
 
+
+
+/* focus section starts here */
+.focus-section-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    background-color: white;
+    padding: 50px 50px;
+    border-radius: 15px;
+}
+
+.focus-section-container h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+.focus-section-container p{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: -20px;
+}
+
+.focus-section-container img{
+    width: 800px;
+    margin-top: 30px;
+    border-radius: 48px;
+}
+
 /* get in touch section style starts here*/
 .get-in-section{
     width: 80%;
@@ -178,7 +215,23 @@
     padding-left: 20px;
 }
 
+.btn-touch{
+    width: 104%;
+    margin-top: 10px;
+    border: 1px solid rgb(214, 221, 237);
+    padding: 20px 36px 20px 36px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
 
+.btn-touch:hover{
+ background-color: darkgoldenrod;   
+}
 /* get in touch section style ends here */
 
 
