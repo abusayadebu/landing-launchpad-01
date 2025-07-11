@@ -98,3 +98,47 @@
     font-size: 38px;
     font-weight: 700;
 }
+/* productive-users section style ends here */
+
+/* users section style starts here */
+.users-section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.users-section h3{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.users-card-container{
+    display: flex;
+    gap: 20px;
+
+}
+.user-card{
+    border: 1px solid red;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.user-card h4{
+    font-size: 24px;
+}
+
+.user-card p{
+    color: #1E1E1E;
+}
+.user-avatar{
+    display: flex;
+    gap: 20px;
+}
+.user-avatar img{
+    width: 40px;
+    border-radius: 50%;
+}
+/* users section style ends here */
