@@ -26,7 +26,7 @@
 }
 
 .primary-text{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 900;
     color: #4E47FF;
 }
@@ -155,3 +155,34 @@
 }
 
 /* get in touch section style ends here */
+
+
+/* footer section starts here */
+.footer-section{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-section{
+    color: #8987A1;
+}
+
+.footer-links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-links li{
+    list-style: none;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+/* footer style ends here */
