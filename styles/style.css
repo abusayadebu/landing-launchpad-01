@@ -5,13 +5,16 @@
   font-style: normal;
 }
 
+.bg-color{
+    background-color: #F5F8FF;
+}
 
 /* nav section style starts here */
 .navbar{
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     text-align: center;
 }
 .nav-contents{
@@ -46,3 +49,25 @@
 }
 /* nav and hero style ends here */
 
+/* webflow section starts here */
+.webflow-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.webflow-contents h4{
+    font-size: 35px;
+    font-weight: 700;
+}
+.webflow-contents p{
+    font-size: 20px;
+    color: #25243280;
+}
+.webflow-container img{
+    border-radius: 40px;
+}
+/* webflow section style ends here */
